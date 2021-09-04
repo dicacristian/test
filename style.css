@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.container {
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 20vw;
+  margin-right: 25vw;
+  padding: 1%;
+  justify-content: center;
+}
+.top-bar {
+  width: 44vw;
+  height: 6vh;
+  display: flex;
+  margin-left: 3.5vw;
+
+  justify-content: center;
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(45, 40, 98, 1) 0%,
+    rgba(101, 98, 140, 1) 89%,
+    rgba(228, 228, 235, 1) 100%
+  );
+
+  align-items: center;
+  text-align: center;
+}
+
+.top-bar a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.top-bar a:hover {
+  background-color: #87a196;
+  color: white;
+}
+
+.search-wrapper {
+  justify-content: flex-end;
+  padding-left: 10px;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+}
+.search-bar {
+  border-radius: 25px;
+  padding-left: 15px;
+  height: 2.9vh;
+  border: 0px;
+}
+.search-bar:focus {
+  border: 0px;
+  outline: none;
+}
+
+.search-fav-wrapper {
+  align-self: center;
+}
+
+.search-fav {
+  height: 1.8vh;
+  margin-right: 0.5vw;
+  padding-left: 0.1vw;
+  margin-top: 0.1vw;
+  cursor: pointer;
+}
+
+.ad-img {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.add-biscuits {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.dot-1 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 3px;
+  background-color: #87a196;
+}
+
+.dot-2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(45, 40, 98);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 1300px;
+  height: 500px;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 21vw;
+  margin-right: 21vw;
+
+  padding: 1%;
+}
+
+.title {
+  color: rgb(45, 40, 98);
+  padding-left: 150px;
+}
+
+.name-scm {
+  font-weight: bold;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 9vw;
+  margin-top: 0px;
+}
+
+.salsa {
+  box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding-left: 9vw;
+}
+
+br {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.bottom-bar {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  text-align: center;
+  font-size: 17px;
+  background-color: #211e49;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bottom-bar a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.title-product {
+  text-align: center;
+  color: rgb(45, 40, 98);
+}
+
+.margarina {
+  box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.caption {
+  text-align: center;
+}
+
+.mai-multe {
+  color: white;
+  background-color: #211e49;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 15vw;
+  margin-right: 7vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mai-multe-2 {
+  color: white;
+  background-color: #211e49;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
